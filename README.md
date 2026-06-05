@@ -50,7 +50,7 @@ Excel file stored in folder `/data/` (seattle_airbnb_listings)
 
 <h2><a class="anchor" id="project-structure"></a>Project Structures</h2>
 
-```
+```text
 tableau_seattle_airbnb_listings_dashboard/
 │   README.md
 │
