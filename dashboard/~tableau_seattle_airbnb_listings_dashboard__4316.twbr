@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8' ?>
 
 <!-- build 20243.25.0114.1153                               -->
-<workbook original-version='18.1' source-build='2024.3.3 (20243.25.0114.1153)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+<workbook original-version='18.1' source-build='2024.3.3 (20243.25.0114.1153)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
     <AccessibleZoneTabOrder />
     <AnimationOnByDefault />
@@ -18,6 +18,7 @@
     <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
     <WindowsPersistSimpleIdentifiers />
   </document-format-change-manifest>
+  <repository-location id='tableau_seattle_airbnb_listings_dashboard' path='/workbooks' revision='1.0' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -27,7 +28,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='Tableau Full Project' name='excel-direct.0ieyx6y1ow2dv419ykt9j0z7dbhc'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/racha/Documents/MSc BA/projects/tableau_seattle_airbnb_listings_dashboard/data/seattle_airbnb_listings.xlsx' interpretationMode='0' password='' server='' validate='no' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/racha/Documents/MSc BA/projects/tableau_seattle_airbnb_listings_dashboard/data/seattle_airbnb_listings.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <relation join='inner' type='join'>
@@ -1868,7 +1869,7 @@
       <column-instance column='[neighbourhood]' derivation='None' name='[none:neighbourhood:nk]' pivot='key' type='nominal' />
       <column-instance column='[zipcode]' derivation='None' name='[none:zipcode:ok]' pivot='key' type='ordinal' />
       <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
-        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='Data/TableauTemp/#TableauTemp_1fn00ff1of91cf1gswubi1her2lq.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='06/05/2026 02:36:18 AM' username='tableau_internal_user'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='Data/TableauTemp/#TableauTemp_1fn00ff1of91cf1gswubi1her2lq.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
           <relation name='Extract' table='[Extract].[Extract]' type='table' />
           <cols>
             <map key='[accommodates]' value='[Extract].[accommodates]' />
@@ -1981,7 +1982,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>13170</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>listing_url</remote-name>
@@ -1996,7 +1996,6 @@
               <approx-count>13170</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>scrape_id</remote-name>
@@ -2010,7 +2009,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>1</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>last_scraped</remote-name>
@@ -2024,7 +2022,6 @@
               <aggregation>Year</aggregation>
               <approx-count>1</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>name</remote-name>
@@ -2039,7 +2036,6 @@
               <approx-count>13023</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>summary</remote-name>
@@ -2054,7 +2050,6 @@
               <approx-count>11563</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>space</remote-name>
@@ -2069,7 +2064,6 @@
               <approx-count>10538</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>description</remote-name>
@@ -2084,7 +2078,6 @@
               <approx-count>12712</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>experiences_offered</remote-name>
@@ -2099,7 +2092,6 @@
               <approx-count>1</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>neighborhood_overview</remote-name>
@@ -2114,7 +2106,6 @@
               <approx-count>7905</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>notes</remote-name>
@@ -2129,7 +2120,6 @@
               <approx-count>6302</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>transit</remote-name>
@@ -2144,7 +2134,6 @@
               <approx-count>8094</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>thumbnail_url</remote-name>
@@ -2159,7 +2148,6 @@
               <approx-count>12191</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>medium_url</remote-name>
@@ -2174,7 +2162,6 @@
               <approx-count>12191</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>picture_url</remote-name>
@@ -2189,7 +2176,6 @@
               <approx-count>13170</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>xl_picture_url</remote-name>
@@ -2204,7 +2190,6 @@
               <approx-count>12191</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>host_id</remote-name>
@@ -2218,7 +2203,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>7978</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>host_url</remote-name>
@@ -2233,7 +2217,6 @@
               <approx-count>7978</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>host_name</remote-name>
@@ -2248,7 +2231,6 @@
               <approx-count>3971</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>host_since</remote-name>
@@ -2262,7 +2244,6 @@
               <aggregation>Year</aggregation>
               <approx-count>3256</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>host_location</remote-name>
@@ -2277,7 +2258,6 @@
               <approx-count>313</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>host_about</remote-name>
@@ -2292,7 +2272,6 @@
               <approx-count>5712</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>host_response_time</remote-name>
@@ -2307,7 +2286,6 @@
               <approx-count>6</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>host_response_rate</remote-name>
@@ -2322,7 +2300,6 @@
               <approx-count>77</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>host_acceptance_rate</remote-name>
@@ -2337,7 +2314,6 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>host_is_superhost</remote-name>
@@ -2352,7 +2328,6 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>host_thumbnail_url</remote-name>
@@ -2367,7 +2342,6 @@
               <approx-count>7936</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>host_picture_url</remote-name>
@@ -2382,7 +2356,6 @@
               <approx-count>7936</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>host_neighbourhood</remote-name>
@@ -2397,7 +2370,6 @@
               <approx-count>179</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>host_listings_count</remote-name>
@@ -2411,7 +2383,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>37</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>host_total_listings_count</remote-name>
@@ -2425,7 +2396,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>37</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>host_verifications</remote-name>
@@ -2440,7 +2410,6 @@
               <approx-count>203</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>host_has_profile_pic</remote-name>
@@ -2455,7 +2424,6 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>host_identity_verified</remote-name>
@@ -2470,7 +2438,6 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>street</remote-name>
@@ -2485,7 +2452,6 @@
               <approx-count>3415</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>neighbourhood</remote-name>
@@ -2500,7 +2466,6 @@
               <approx-count>96</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>neighbourhood_cleansed</remote-name>
@@ -2515,7 +2480,6 @@
               <approx-count>57</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>neighbourhood_group_cleansed</remote-name>
@@ -2530,7 +2494,6 @@
               <approx-count>16</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>city</remote-name>
@@ -2545,7 +2508,6 @@
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>state</remote-name>
@@ -2560,7 +2522,6 @@
               <approx-count>1</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>zipcode</remote-name>
@@ -2574,7 +2535,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>28</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>market</remote-name>
@@ -2589,7 +2549,6 @@
               <approx-count>1</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>smart_location</remote-name>
@@ -2604,7 +2563,6 @@
               <approx-count>6</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>country_code</remote-name>
@@ -2619,7 +2577,6 @@
               <approx-count>1</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>country</remote-name>
@@ -2634,7 +2591,6 @@
               <approx-count>1</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>latitude</remote-name>
@@ -2648,7 +2604,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>13170</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>longitude</remote-name>
@@ -2662,7 +2617,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>13170</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>is_location_exact</remote-name>
@@ -2677,7 +2631,6 @@
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>property_type</remote-name>
@@ -2692,7 +2645,6 @@
               <approx-count>23</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>room_type</remote-name>
@@ -2707,7 +2659,6 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>accommodates</remote-name>
@@ -2721,7 +2672,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>23</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>bathrooms</remote-name>
@@ -2735,7 +2685,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>12</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>bedrooms</remote-name>
@@ -2749,7 +2698,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>8</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>beds</remote-name>
@@ -2763,7 +2711,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>15</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>bed_type</remote-name>
@@ -2778,7 +2725,6 @@
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>amenities</remote-name>
@@ -2793,7 +2739,6 @@
               <approx-count>10805</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>square_feet</remote-name>
@@ -2807,7 +2752,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>75</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>price1</remote-name>
@@ -2821,7 +2765,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>434</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>weekly_price</remote-name>
@@ -2835,7 +2778,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>863</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>monthly_price</remote-name>
@@ -2849,7 +2791,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>856</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>security_deposit</remote-name>
@@ -2863,7 +2804,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>75</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>cleaning_fee</remote-name>
@@ -2877,7 +2817,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>214</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>guests_included</remote-name>
@@ -2891,7 +2830,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>18</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>extra_people</remote-name>
@@ -2905,7 +2843,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>85</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>minimum_nights</remote-name>
@@ -2919,7 +2856,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>27</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>maximum_nights</remote-name>
@@ -2933,7 +2869,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>157</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>calendar_updated</remote-name>
@@ -2948,7 +2883,6 @@
               <approx-count>41</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>has_availability</remote-name>
@@ -2963,7 +2897,6 @@
               <approx-count>1</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>availability_30</remote-name>
@@ -2977,7 +2910,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>31</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>availability_60</remote-name>
@@ -2991,7 +2923,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>61</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>availability_90</remote-name>
@@ -3005,7 +2936,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>91</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>availability_365</remote-name>
@@ -3019,7 +2949,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>520</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>calendar_last_scraped</remote-name>
@@ -3033,7 +2962,6 @@
               <aggregation>Year</aggregation>
               <approx-count>1</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>number_of_reviews</remote-name>
@@ -3047,7 +2975,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>386</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>first_review</remote-name>
@@ -3061,7 +2988,6 @@
               <aggregation>Year</aggregation>
               <approx-count>2401</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>last_review</remote-name>
@@ -3075,7 +3001,6 @@
               <aggregation>Year</aggregation>
               <approx-count>539</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>review_scores_rating</remote-name>
@@ -3089,7 +3014,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>51</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>review_scores_accuracy</remote-name>
@@ -3103,7 +3027,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>8</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>review_scores_cleanliness</remote-name>
@@ -3117,7 +3040,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>8</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>review_scores_checkin</remote-name>
@@ -3131,7 +3053,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>8</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>review_scores_communication</remote-name>
@@ -3145,7 +3066,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>8</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>review_scores_location</remote-name>
@@ -3159,7 +3079,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>7</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>review_scores_value</remote-name>
@@ -3173,7 +3092,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>8</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>requires_license</remote-name>
@@ -3188,7 +3106,6 @@
               <approx-count>1</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>license</remote-name>
@@ -3203,7 +3120,6 @@
               <approx-count>1</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>jurisdiction_names</remote-name>
@@ -3218,7 +3134,6 @@
               <approx-count>1</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>instant_bookable</remote-name>
@@ -3233,7 +3148,6 @@
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>cancellation_policy</remote-name>
@@ -3248,7 +3162,6 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>require_guest_profile_picture</remote-name>
@@ -3263,7 +3176,6 @@
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>require_guest_phone_verification</remote-name>
@@ -3278,7 +3190,6 @@
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>calculated_host_listings_count</remote-name>
@@ -3292,7 +3203,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>18</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>reviews_per_month</remote-name>
@@ -3306,7 +3216,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>1441</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>listing_id</remote-name>
@@ -3320,7 +3229,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>13170</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>date</remote-name>
@@ -3334,7 +3242,6 @@
               <aggregation>Year</aggregation>
               <approx-count>365</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>available</remote-name>
@@ -3349,7 +3256,6 @@
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>price</remote-name>
@@ -3363,7 +3269,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>1197</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Listings_E49414EF7F6F4951B302B9A52BA862BA]</object-id>
             </metadata-record>
           </metadata-records>
         </connection>
@@ -4226,9 +4131,9 @@
       <size sizing-mode='automatic' />
       <zones>
         <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
-          <zone h='97890' id='15' param='horz' type-v2='layout-flow' w='99150' x='425' y='1055'>
-            <zone h='97890' id='5' type-v2='layout-basic' w='99150' x='425' y='1055'>
-              <zone h='50398' id='9' name='Sheet 2' w='23659' x='425' y='48547'>
+          <zone h='97892' id='15' param='horz' type-v2='layout-flow' w='99150' x='425' y='1054'>
+            <zone h='97892' id='5' type-v2='layout-basic' w='99150' x='425' y='1054'>
+              <zone h='50401' id='9' name='Sheet 2' w='23659' x='425' y='48545'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -4236,7 +4141,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='50398' id='13' name='Sheet 1' w='28472' x='24084' y='48547'>
+              <zone h='50401' id='13' name='Sheet 1' w='28472' x='24084' y='48545'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -4244,7 +4149,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='47492' id='18' name='Sheet 4' w='74609' x='425' y='1055'>
+              <zone h='47491' id='18' name='Sheet 4' w='74609' x='425' y='1054'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -4252,7 +4157,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='47492' id='19' name='Sheet 5' w='24541' x='75034' y='1055'>
+              <zone h='47491' id='19' name='Sheet 5' w='24541' x='75034' y='1054'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -4260,7 +4165,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='50398' id='17' name='Sheet 3' w='37091' x='62484' y='48547'>
+              <zone h='50401' id='17' name='Sheet 3' w='37091' x='62484' y='48545'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -4268,7 +4173,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='50398' id='16' name='Sheet 1' pane-specification-id='0' param='[federated.1iimjr1109namn15etvd1126e6qy].[none:neighbourhood:nk]' type-v2='color' w='9928' x='52556' y='48547'>
+              <zone h='50401' id='16' name='Sheet 1' pane-specification-id='0' param='[federated.1iimjr1109namn15etvd1126e6qy].[none:neighbourhood:nk]' type-v2='color' w='9928' x='52556' y='48545'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -4290,8 +4195,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1550' minheight='1550' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='33' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97890' id='32' param='vert' type-v2='layout-flow' w='99150' x='425' y='1055'>
+            <zone h='100000' id='35' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97890' id='34' param='vert' type-v2='layout-flow' w='99150' x='425' y='1055'>
                 <zone fixed-size='280' h='47492' id='18' is-fixed='true' name='Sheet 4' w='74609' x='425' y='1055'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -4360,7 +4265,7 @@
       <simple-id uuid='{A415F87F-BD94-41F5-96F7-536C7661B494}' />
     </dashboard>
   </dashboards>
-  <windows show-side-pane='false' source-height='44'>
+  <windows pres-mode='true' show-side-pane='false' source-height='44'>
     <window class='worksheet' name='Sheet 1'>
       <cards>
         <edge name='left'>

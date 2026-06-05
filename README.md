@@ -90,7 +90,7 @@ Tableau dashboard shows:
 - Average prices per neighborhood
 - Revenue generated throughout the year on a weekly basis
 
-![alt text](image-1.png)
+![Seattle Airbnb Dashboard Preview](screenshots/dashboard-preview.png)
 
 ---
 
