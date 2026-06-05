@@ -12,7 +12,6 @@ _Understanding Seattle Airbnb listings and it's corresponding prices, and to eva
 - <a href= "#tools--technologies">Tools and Technologies</a>
 - <a href= "#project-structure">Project Structure</a>
 - <a href= "#data-cleaning-preparation">Data Cleaning and Preparation</a>
-- <a href= "#exploratory-data-analysis">Exploatory Data Analysis</a>
 - <a href= "#research-questions-key-findings">Research questions and Key findings</a>
 - <a href= "#dashboard">Dashboard</a>
 - <a href= "#how-to-run-this-project">How to run this project</a>
