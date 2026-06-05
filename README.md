@@ -103,10 +103,10 @@ Clip on the below link to view the interactive dashboard
 
 <h2><a class="anchor" id="author-contact"></a>Author & Contact</h2>
 
-*Rachana Subramanya*
-email: rachanasubramanya50@gmail.com
-[LinkedIn](https://www.linkedin.com/in/rachana-subramanya-4ab0b3303/)
-[Github](https://github.com/RachanaSubramanya)
+- *Rachana Subramanya*
+- email: rachanasubramanya50@gmail.com
+- LinkedIn: (https://www.linkedin.com/in/rachana-subramanya-4ab0b3303/)
+- Github: (https://github.com/RachanaSubramanya)
 
 ---
 
