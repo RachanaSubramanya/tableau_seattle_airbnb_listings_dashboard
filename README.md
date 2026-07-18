@@ -7,13 +7,13 @@ _Understanding Seattle Airbnb listings and it's corresponding prices, and to eva
 
 ## Table of contents
 - <a href= "#overview">Overview</a>
+- <a href= "#dashboard">Dashboard</a>
 - <a href= "#business-problem">Business problem</a>
 - <a href= "#dataset">Dataset</a>
 - <a href= "#tools--technologies">Tools and Technologies</a>
 - <a href= "#project-structure">Project Structure</a>
 - <a href= "#data-cleaning-preparation">Data Cleaning and Preparation</a>
 - <a href= "#research-questions-key-findings">Research questions and Key findings</a>
-- <a href= "#dashboard">Dashboard</a>
 - <a href= "#how-to-run-this-project">How to run this project</a>
 - <a href= "#author-contact">Author & Contact</a>
 
@@ -22,6 +22,18 @@ _Understanding Seattle Airbnb listings and it's corresponding prices, and to eva
 <h2><a class="anchor" id="overview"></a>Overview</h2>
 
 This project aims at understanding how the listing price changes based on locale and neighborhood to derive strategic insights for using the facilities of Airbnb. Data was sourced from kaggle and an interactive dashboard was built using Tableau.
+
+---
+
+<h2><a class="anchor" id="dashboard"></a>Dashboard</h2>
+
+Tableau dashboard shows:
+- Average price per bedroom
+- Count of house listings for with respect to number of bedrooms
+- Average prices per neighborhood
+- Revenue generated throughout the year on a weekly basis
+
+![Seattle Airbnb Dashboard Preview](screenshots/dashboard_preview.png)
 
 ---
 
@@ -78,18 +90,6 @@ The following conclusions can be drawn:
 - There is direct correlation with the price and the number of bedrooms, as the price for listings goes up with an additional bedroom
 - The total number of houses listed, in accordance to the number of bedrooms offered. This shows that there are fewer houses listed as the number of rooms increases.
 - Revenue generated from Airbnbs has a trend. It can be observed that there are 2 'peaks', once during mid-July, and once more towards the 3rd week of December, right before christmas. Thus it can be concluded that those who prefer to list their houses temporarily can do so in these optimal time slots.
-
----
-
-<h2><a class="anchor" id="dashboard"></a>Dashboard</h2>
-
-Tableau dashboard shows:
-- Average price per bedroom
-- Count of house listings for with respect to number of bedrooms
-- Average prices per neighborhood
-- Revenue generated throughout the year on a weekly basis
-
-![Seattle Airbnb Dashboard Preview](screenshots/dashboard-preview.png)
 
 ---
 
